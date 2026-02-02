@@ -1,0 +1,34 @@
+# Model weights (too large for GitHub)
+*.pt
+*.pth
+*.ckpt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+*.pid
+
+# Data files
+*.pkl
+*.pickle
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Wandb
+wandb/
+*.wandb
