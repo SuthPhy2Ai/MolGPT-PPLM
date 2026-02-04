@@ -82,6 +82,35 @@ Complete framework diagram with active learning loop.
 
 ---
 
+## 5. PPLM Guidance Process Visualizations
+
+### Guidance Trajectory
+Shows molecules generated at different PPLM guidance strengths (0.0 to 1.0).
+
+![Guidance Trajectory](results/pplm_guidance_trajectory.png)
+
+### Property Space Migration
+Demonstrates how molecules migrate in LogP-QED space during PPLM guidance.
+
+![Property Migration](results/pplm_property_migration.png)
+
+### Structure Comparison
+Side-by-side comparison of random vs PPLM-guided molecular structures.
+
+![Structure Comparison](results/pplm_structure_comparison.png)
+
+### Chemical Space Visualization
+Fingerprint-based MDS projection showing molecular clustering by guidance level.
+
+![Chemical Space](results/pplm_chemical_space.png)
+
+### Summary Panel
+Comprehensive overview combining all aspects of PPLM guidance.
+
+![Summary Panel](results/pplm_summary_panel.png)
+
+---
+
 ## Summary
 
 | Category | Figures | Description |
@@ -90,5 +119,6 @@ Complete framework diagram with active learning loop.
 | Advanced | fig5-fig8 | PPLM mechanism, uncertainty |
 | Fancy | fancy_* | Dark theme, publication-ready |
 | Molecular | mol_* | RDKit structure rendering |
+| PPLM Process | pplm_* | Guidance trajectory, migration |
 
-Total: **18 figures** (PNG + PDF formats)
+Total: **23 figures** (PNG + PDF formats)
